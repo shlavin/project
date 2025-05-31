@@ -1,0 +1,43 @@
+.streak-container {
+    background-color: #f7faff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .streak-box {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  
+  .streak-message {
+    margin: 0;
+  }
+  
+  .streak-box.joy {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  .streak-box.sadness {
+    background-color: #d1ecf1;
+    color: #0c5460;
+  }
+  
+  .streak-box.anger {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .streak-box.neutral {
+    background-color: #e2e3e5;
+    color: #383d41;
+  }
+  

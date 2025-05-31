@@ -1,0 +1,90 @@
+
+.anxiety-resources-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+  
+  .resources-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .resource-card {
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .resource-card h2 {
+    color: #2980b9;
+    margin-bottom: 5px;
+  }
+  
+  .resource-card p {
+    color: #2c3e50;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .resource-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .resource-link:hover {
+    text-decoration: underline;
+  }
+  
+  .school-details {
+    background: #dff9fb;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .school-details h2 {
+    color: #16a085;
+    margin-bottom: 5px;
+  }
+  
+  .school-details p {
+    color: #2c3e50;
+    font-size: 1rem;
+  }
+  
+  .back-button {
+    background-color:#1E90FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #1E90FF;
+  }
+  

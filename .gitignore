@@ -1,0 +1,55 @@
+# ======================
+# Python & Django
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.db
+*.sqlite3
+*.env
+.env.*
+
+# Django migration cache
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# ======================
+# ML & AI Artifacts
+# ======================
+chatbot/**/checkpoint-*/
+chatbot/**/model.safetensors
+chatbot/**/optimizer.pt
+chatbot/**/scheduler.pt
+chatbot/**/training_args.bin
+chatbot/**/trainer_state.json
+chatbot/**/rng_state.pth
+chatbot/*.csv
+chatbot/*.png
+chatbot/*.jpg
+chatbot/emotions_model/
+chatbot/goemotions_model/
+chatbot/logs/
+
+# ======================
+# Frontend (React/Vite)
+# ======================
+chatbot-frontend/node_modules/
+chatbot-frontend/build/
+chatbot-frontend/dist/
+chatbot-frontend/.env
+chatbot-frontend/.env.*
+
+# Optional: React test coverage
+chatbot-frontend/coverage/
+
+# ======================
+# IDE / OS Clutter
+# ======================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
