@@ -1,6 +1,6 @@
-# ======================
+
 # Python & Django
-# ======================
+
 __pycache__/
 *.py[cod]
 *.pyo
@@ -15,9 +15,9 @@ __pycache__/
 **/migrations/*.pyc
 **/migrations/__pycache__/
 
-# ======================
+
 # ML & AI Artifacts
-# ======================
+
 chatbot/**/checkpoint-*/
 chatbot/**/model.safetensors
 chatbot/**/optimizer.pt
@@ -32,21 +32,21 @@ chatbot/emotions_model/
 chatbot/goemotions_model/
 chatbot/logs/
 
-# ======================
-# Frontend (React/Vite)
-# ======================
+
+# Frontend (React)
+
 chatbot-frontend/node_modules/
 chatbot-frontend/build/
 chatbot-frontend/dist/
 chatbot-frontend/.env
 chatbot-frontend/.env.*
 
-# Optional: React test coverage
+#  React test coverage
 chatbot-frontend/coverage/
 
-# ======================
+
 # IDE / OS Clutter
-# ======================
+
 .vscode/
 .idea/
 .DS_Store
