@@ -1,6 +1,8 @@
  Mental Health Chatbot
 
-An AI-powered chatbot that detects user emotions and provides supportive mental health conversations.
+This chatbot was developed to provide emotional support and mental health resources to university students in a safe, judgment-free space. Its purpose is to help students manage stress, anxiety, and isolation by offering friendly conversations, helpful coping tips, and access to mental health information. The chatbot uses basic natural language processing to recognize emotional cues and respond empathetically. Its impact lies in making mental health support more accessible, especially for students who may be hesitant to seek help in person. The project reflects my commitment to using technology for social good and promoting emotional well-being among young people.
+
+
 
 Overview
 
